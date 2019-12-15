@@ -1,0 +1,129 @@
+**** EXPERIMENT Run_Doe() Men 30-40 ****
+Experiment: 1
+Water 10k: 1
+Water Hlaf: 1
+WC 25K: 2
+SOLID 35: 2
+WC 30k: 60
+Water 30k: 1
+Replication result: 13256.33829716745
+Experiment: 2
+Water 10k: 1
+Water Hlaf: 1
+WC 25K: 2
+SOLID 35: 8
+WC 30k: 2
+Water 30k: 5
+Replication result: 12662.27679138501
+Experiment: 3
+Water 10k: 1
+Water Hlaf: 1
+WC 25K: 60
+SOLID 35: 8
+WC 30k: 60
+Water 30k: 5
+Replication result: 12247.90093172853
+Experiment: 4
+Water 10k: 1
+Water Hlaf: 5
+WC 25K: 60
+SOLID 35: 8
+WC 30k: 2
+Water 30k: 1
+Replication result: 12474.13532790321
+Experiment: 5
+Water 10k: 5
+Water Hlaf: 5
+WC 25K: 60
+SOLID 35: 8
+WC 30k: 60
+Water 30k: 5
+Replication result: 11926.13226410519
+Experiment: 6
+Water 10k: 5
+Water Hlaf: 5
+WC 25K: 60
+SOLID 35: 2
+WC 30k: 2
+Water 30k: 1
+Replication result: 12956.73306341394
+Experiment: 7
+Water 10k: 5
+Water Hlaf: 5
+WC 25K: 2
+SOLID 35: 2
+WC 30k: 60
+Water 30k: 1
+Replication result: 12491.86425519025
+Experiment: 8
+Water 10k: 5
+Water Hlaf: 1
+WC 25K: 2
+SOLID 35: 2
+WC 30k: 2
+Water 30k: 5
+Replication result: 12632.57706055908
+Experiment: 9
+Water 10k: 1
+Water Hlaf: 5
+WC 25K: 2
+SOLID 35: 2
+WC 30k: 2
+Water 30k: 5
+Replication result: 12331.94664302356
+Experiment: 10
+Water 10k: 1
+Water Hlaf: 5
+WC 25K: 60
+SOLID 35: 2
+WC 30k: 60
+Water 30k: 5
+Replication result: 12830.40095878457
+Experiment: 11
+Water 10k: 1
+Water Hlaf: 1
+WC 25K: 60
+SOLID 35: 2
+WC 30k: 2
+Water 30k: 1
+Replication result: 13204.02576607304
+Experiment: 12
+Water 10k: 5
+Water Hlaf: 1
+WC 25K: 2
+SOLID 35: 8
+WC 30k: 60
+Water 30k: 1
+Replication result: 12532.97055523557
+Experiment: 13
+Water 10k: 5
+Water Hlaf: 1
+WC 25K: 60
+SOLID 35: 8
+WC 30k: 2
+Water 30k: 1
+Replication result: 13571.75226348981
+Experiment: 14
+Water 10k: 5
+Water Hlaf: 5
+WC 25K: 2
+SOLID 35: 8
+WC 30k: 2
+Water 30k: 5
+Replication result: 12551.92716809285
+Experiment: 15
+Water 10k: 1
+Water Hlaf: 5
+WC 25K: 2
+SOLID 35: 8
+WC 30k: 60
+Water 30k: 1
+Replication result: 12838.12853401733
+Experiment: 16
+Water 10k: 5
+Water Hlaf: 1
+WC 25K: 60
+SOLID 35: 2
+WC 30k: 60
+Water 30k: 5
+Replication result: 12358.98181740655

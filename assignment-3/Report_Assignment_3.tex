@@ -1,0 +1,75 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{blindtext}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{caption}
+\graphicspath{ {./images/} }
+
+\title{
+  Third Assignment - Validation\\
+  Juan Pablo Royo Sales\\
+  \date\today\vspace{-2em}}
+\date{\normalize\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Blackbox Validation}
+
+On the first hand i am running a bunch of experiments according to the DOE
+exposed on the previous assignment.
+
+After running the different experiments I got the following results of each
+transaction runner that are under \textbf{simulation.csv}.
+
+After doing an \textbf{ANOVA} analysis with the real data of the marathon we
+have obtain a very low \textit{p-value} which indicates that the populations are quite
+different.
+
+\begin{table}[h!]
+  \begin{tabular}{ |c|c|c|c|c|c|c|  }
+    \hline
+    \multicolumn{7}{|c|}{ANOVA Results from R Studio} \\
+    \hline
+    & Df & Sum Sq & Mean Sq & F Value & Pr(>F) & \\
+    \hline
+    x2 & 1 & 38383319841 & 38383319841 & 10458 & $<2e^{16}$ & *** \\
+    Residuals & 7198 & 26417268633 & 3670085 & & & \\
+    \hline
+  \end{tabular}
+  \captionof{figure}{ANOVA Analysis between simulation and real marathon data}
+  \label{table:anova}
+\end{table}
+
+Also we can see the bloxplot resulting on this ANOVA and how the means of both
+populations differ, although not so much.
+
+\begin{minipage}[t]{\linewidth}
+  \centering
+  \includegraphics[width=\textwidth]{plot_comparing_simulation}
+  \captionof{figure}{Boxplot ANOVA}
+\end{minipage}\\\\
+
+\subsection{Conclusion Blackbox validation}
+According to the results we must \textbf{reject the null hypothesis} reaching to
+the conclusion that the simulation is not so well adjusted to generate values
+near to the real data.
+
+In the context of this Assignment I am not going to adjust the simulation, but
+I can assure that if we observe the Plot the means don't diverge so much and
+adding more randomness could solve the problem.
+
+
+\section{Fixed Values}
+
+
+\end{document}
